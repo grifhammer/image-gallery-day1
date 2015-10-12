@@ -14,13 +14,68 @@
 		<!-- Title for the page -->
 		<h1>Unit 1 - Day 1 - Image Gallery in HTML</h1>
 		<!-- Wrapper for the thumbnails -->
-		<div class="thumbnails">
-			<img onclick="preview.src=img1.src" name="img1" src="img/image1.jpg" alt="Galaxy">
-			<img onclick="preview.src=img2.src" name="img2" src="img/image2.jpg" alt="click">
-			<img onclick="preview.src=img3.src" name="img3" src="img/image3.jpg" alt="asdf">
-			<img onclick="preview.src=img4.src" name="img4" src="img/image4.jpg" alt="Saturn">
-			<img onclick="preview.src=img5.src" name="img5" src="img/image5.jpg" alt="Ringed-Planet">
-			<img onclick="preview.src=img6.src" name="img6" src="img/image6.png" alt="Sleepy Rob">
+		<div class="thumbnails-left">
+			<div class="full-thumbnail">
+				<img onmouseover="preview.src=img1.src" name="img1" src="img/image1.jpg" alt="Galaxy">
+				<p>The First Picture</p>
+			</div>
+
+			<div class="full-thumbnail">
+				<img onmouseover="preview.src=img2.src" name="img2" src="img/image2.jpg" alt="click">
+				<p>The Second Picture</p>
+			</div>
+
+			<div class="full-thumbnail">
+				<img onmouseover="preview.src=img3.src" name="img3" src="img/image3.jpg" alt="asdf">
+				<p>The Third Picture</p>
+			</div>
+
+			<div class="full-thumbnail">
+				<img onmouseover="preview.src=img4.src" name="img4" src="img/image4.jpg" alt="Saturn">
+				<p>The Fourth Picture</p>
+			</div>
+
+			<div class="full-thumbnail">
+				<img onmouseover="preview.src=img5.src" name="img5" src="img/image5.jpg" alt="Ringed-Planet">
+				<p>The Fifth Picture</p>
+			</div>
+
+			<div class="full-thumbnail">
+				<img ondblclick="preview.src=img6.src" name="img6" src="img/image6.png" alt="Sleepy Rob">
+				<p>The Sixth Picture</p>
+			</div>
+
+		</div>
+		<div class="thumbnails-right">
+			<div class="full-thumbnail">
+				<img onclick="preview.src=img1r.src" name="img1r" src="img/image1.jpg" alt="Galaxy">
+				<p>The First Picture</p>
+			</div>
+
+			<div class="full-thumbnail">
+				<img onclick="preview.src=img2r.src" name="img2r" src="img/image2.jpg" alt="click">
+				<p>The Second Picture</p>
+			</div>
+			
+			<div class="full-thumbnail">
+				<img onclick="preview.src=img3r.src" name="img3r" src="img/image3.jpg" alt="asdf">
+				<p>The Third Picture</p>
+			</div>
+			
+			<div class="full-thumbnail">
+				<img onclick="preview.src=img4r.src" name="img4r" src="img/image4.jpg" alt="Saturn">
+				<p>The Fourth Picture</p>
+			</div>
+			
+			<div class="full-thumbnail">
+				<img onclick="preview.src=img5r.src" name="img5r" src="img/image5.jpg" alt="Ringed-Planet">
+				<p>The Fifth Picture</p>
+			</div>
+			
+			<div class="full-thumbnail">
+				<img ondblclick="preview.src=img6r.src" name="img6r" src="img/image6.png" alt="Sleepy Rob">
+				<p>The Sixth Picture</p>
+			</div>
 		</div>
 		<div class="preview">
 			<img name="preview" src="img/image1.jpg" alt="Galaxy">
