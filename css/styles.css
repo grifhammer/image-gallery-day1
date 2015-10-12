@@ -12,15 +12,20 @@ h1{
     margin-bottom: 20px;
 }
 
+div{
+
+}
+
 .thumbnails{
-	text-align: center;
-	margin:auto;
+	width:20%;
+	float:left;
+	margin: 0 2%;
 }
 
 .thumbnails img{
-	height: 80px;
+	width: 160px;
+	max-width: 100%;
 	border: 4px solid #555;
-
 }
 
 
@@ -30,5 +35,13 @@ h1{
 
 .preview{
 	text-align: center;
+	float:left;
+	width:72%;
+	margin:0 2%;
+	
+}
+.preview img{
+	max-width: 100%;
 	margin:auto;
+	
 }
